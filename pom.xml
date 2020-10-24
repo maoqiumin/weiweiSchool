@@ -10,8 +10,8 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>test</groupId>
-    <artifactId>test</artifactId>
+    <groupId>weiweiSchool</groupId>
+    <artifactId>weiweiSchool</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
