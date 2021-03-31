@@ -1,1 +1,5 @@
-com\test\mode\Customer.class
+com\qmmao\model\login\UserInfo.class
+com\qmmao\model\customer\CustomerVO.class
+com\qmmao\model\mybatis\Test.class
+com\qmmao\model\common\BaseApiResponse.class
+com\qmmao\model\constvar\ConstVar.class

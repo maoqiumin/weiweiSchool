@@ -20,6 +20,7 @@
         <module>web</module>
         <module>service</module>
         <module>dao</module>
+        <module>mybatis</module>
     </modules>
 
     <dependencies>
