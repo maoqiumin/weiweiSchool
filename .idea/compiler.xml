@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web" />
-        <module name="mybatis" />
-        <module name="common" />
-        <module name="model" />
         <module name="site" />
         <module name="dao" />
+        <module name="common" />
+        <module name="web" />
         <module name="service" />
+        <module name="mybatis" />
+        <module name="model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

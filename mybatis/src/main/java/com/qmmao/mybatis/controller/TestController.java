@@ -1,13 +1,12 @@
 package com.qmmao.mybatis.controller;
 
-import com.qmmao.model.common.BaseApiResponse;
+import com.qmmao.weiweischool.model.common.BaseApiResponse;
 import com.qmmao.mybatis.mapper.CustomerMapper;
-import com.qmmao.util.ApiResponseUtil;
+import com.qmmao.weiweischool.util.ApiResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import qmmao.school.teachingdb.entity.CustomerGen;
+import com.qmmao.weiweischool.dao.teachingdb.entity.CustomerGen;
 
 /**
  * @author maoqi

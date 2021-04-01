@@ -2,7 +2,7 @@ package com.qmmao.mybatis.mapper;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
-import qmmao.school.teachingdb.entity.CustomerGen;
+import com.qmmao.weiweischool.dao.teachingdb.entity.CustomerGen;
 
 /**
  * @author maoqi

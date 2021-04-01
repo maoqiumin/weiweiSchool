@@ -55,12 +55,6 @@
         </dependency>
         <dependency>
             <groupId>weiweiSchool</groupId>
-            <artifactId>model</artifactId>
-            <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>weiweiSchool</groupId>
             <artifactId>common</artifactId>
             <version>1.0</version>
             <scope>compile</scope>
