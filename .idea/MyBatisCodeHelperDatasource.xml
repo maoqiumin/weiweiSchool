@@ -3,12 +3,91 @@
   <component name="MyBatisCodeHelperDatasource">
     <option name="projectProfile">
       <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
         <option name="baseClassSearchXml" value="true" />
+        <option name="batchInsert" value="true" />
+        <option name="insertOnDuplicateKey" value="true" />
+        <option name="javaMapperPackage" value="com.qmmao.weiweischool.dao.operatordb.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/dao/src/main/java" />
+        <option name="javaModelPackage" value="com.qmmao.weiweischool.dao.operatordb.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/dao/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="dao" />
+        <option name="mapperAnnotaion" value="true" />
         <option name="methodNameForProjectList">
           <list>
             <option value="findByAll" />
           </list>
         </option>
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="common">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.qmmao.weiweischool.dao.operatordb.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/dao/src/main/java" />
+                  <option name="javaModelPacakge" value="com.qmmao.weiweischool.dao.operatordb.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/dao/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/common/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/common/src/main/java" />
+                  <option name="xmlPackage" value="mapping" />
+                  <option name="xmlPath" value="E:\demo\weiweiSchool\web\src\main\resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="dao">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.qmmao.weiweischool.dao.operatordb.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/dao/src/main/java" />
+                  <option name="javaModelPacakge" value="com.qmmao.weiweischool.dao.operatordb.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/dao/src/main/java" />
+                  <option name="xmlPackage" value="mapping" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/dao/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="mybatis">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.qmmao.weiweischool.dao.operatordb.mapper" />
+                  <option name="javaMapperPath" value="E:\demo\weiweiSchool\dao\src\main\java" />
+                  <option name="javaModelPacakge" value="com.qmmao.weiweischool.dao.operatordb.entity" />
+                  <option name="javaModelPath" value="E:\demo\weiweiSchool\dao\src\main\java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/mybatis/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/mybatis/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/web/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusStaticField" value="false" />
+        <option name="noJdbcType" value="true" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="summer_operator:oper_carrier_order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="batchInsert" value="true" />
+                  <option name="generatedKey" value="id" />
+                  <option name="insertOnDuplicateKey" value="true" />
+                  <option name="javaModelName" value="OperCarrierOrderPO" />
+                  <option name="moduleName" value="dao" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="updateBatch" value="true" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="updateBatch" value="true" />
+        <option name="useExample" value="true" />
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapping" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/dao/src/main/resources" />
       </ProjectProfile>
     </option>
   </component>

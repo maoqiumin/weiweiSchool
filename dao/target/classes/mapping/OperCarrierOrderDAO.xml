@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qmmao.weiweischool.dao.operatordb.mapper.OperCarrierOrderDAO">
+  <resultMap id="BaseResultMap" type="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPO">
+    <!--@mbg.generated-->
+    <!--@Table oper_carrier_order-->
+    <id column="id" property="id" />
+    <result column="order_code" property="orderCode" />
+    <result column="shop_id" property="shopId" />
+    <result column="operator_type" property="operatorType" />
+    <result column="order_date" property="orderDate" />
+    <result column="ship_type" property="shipType" />
+    <result column="check_status" property="checkStatus" />
+    <result column="order_status" property="orderStatus" />
+    <result column="created_by" property="createdBy" />
+    <result column="created_date" property="createdDate" />
+    <result column="last_modified_by" property="lastModifiedBy" />
+    <result column="last_modified_date" property="lastModifiedDate" />
+    <result column="remarks" property="remarks" />
+    <result column="enabled" property="enabled" />
+    <result column="tenant_code" property="tenantCode" />
+    <result column="application_id" property="applicationId" />
+    <result column="version" property="version" />
+    <result column="carrier_code" property="carrierCode" />
+    <result column="sale_id" property="saleId" />
+    <result column="sale_no" property="saleNo" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <!--@mbg.generated-->
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <!--@mbg.generated-->
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, order_code, shop_id, operator_type, order_date, ship_type, check_status, order_status, 
+    created_by, created_date, last_modified_by, last_modified_date, remarks, enabled, 
+    tenant_code, application_id, version, carrier_code, sale_id, sale_no
+  </sql>
+  <select id="selectByExample" parameterType="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPOExample" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from oper_carrier_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPOExample">
+    <!--@mbg.generated-->
+    delete from oper_carrier_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <select id="countByExample" parameterType="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPOExample" resultType="java.lang.Long">
+    <!--@mbg.generated-->
+    select count(*) from oper_carrier_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    <!--@mbg.generated-->
+    update oper_carrier_order
+    <set>
+      <if test="record.id != null">
+        id = #{record.id},
+      </if>
+      <if test="record.orderCode != null">
+        order_code = #{record.orderCode},
+      </if>
+      <if test="record.shopId != null">
+        shop_id = #{record.shopId},
+      </if>
+      <if test="record.operatorType != null">
+        operator_type = #{record.operatorType},
+      </if>
+      <if test="record.orderDate != null">
+        order_date = #{record.orderDate},
+      </if>
+      <if test="record.shipType != null">
+        ship_type = #{record.shipType},
+      </if>
+      <if test="record.checkStatus != null">
+        check_status = #{record.checkStatus},
+      </if>
+      <if test="record.orderStatus != null">
+        order_status = #{record.orderStatus},
+      </if>
+      <if test="record.createdBy != null">
+        created_by = #{record.createdBy},
+      </if>
+      <if test="record.createdDate != null">
+        created_date = #{record.createdDate},
+      </if>
+      <if test="record.lastModifiedBy != null">
+        last_modified_by = #{record.lastModifiedBy},
+      </if>
+      <if test="record.lastModifiedDate != null">
+        last_modified_date = #{record.lastModifiedDate},
+      </if>
+      <if test="record.remarks != null">
+        remarks = #{record.remarks},
+      </if>
+      <if test="record.enabled != null">
+        enabled = #{record.enabled},
+      </if>
+      <if test="record.tenantCode != null">
+        tenant_code = #{record.tenantCode},
+      </if>
+      <if test="record.applicationId != null">
+        application_id = #{record.applicationId},
+      </if>
+      <if test="record.version != null">
+        version = #{record.version},
+      </if>
+      <if test="record.carrierCode != null">
+        carrier_code = #{record.carrierCode},
+      </if>
+      <if test="record.saleId != null">
+        sale_id = #{record.saleId},
+      </if>
+      <if test="record.saleNo != null">
+        sale_no = #{record.saleNo},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    <!--@mbg.generated-->
+    update oper_carrier_order
+    set id = #{record.id},
+      order_code = #{record.orderCode},
+      shop_id = #{record.shopId},
+      operator_type = #{record.operatorType},
+      order_date = #{record.orderDate},
+      ship_type = #{record.shipType},
+      check_status = #{record.checkStatus},
+      order_status = #{record.orderStatus},
+      created_by = #{record.createdBy},
+      created_date = #{record.createdDate},
+      last_modified_by = #{record.lastModifiedBy},
+      last_modified_date = #{record.lastModifiedDate},
+      remarks = #{record.remarks},
+      enabled = #{record.enabled},
+      tenant_code = #{record.tenantCode},
+      application_id = #{record.applicationId},
+      version = #{record.version},
+      carrier_code = #{record.carrierCode},
+      sale_id = #{record.saleId},
+      sale_no = #{record.saleNo}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <select id="findByAll" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from oper_carrier_order
+        <where>
+            <if test="id != null">
+                and id=#{id,jdbcType=BIGINT}
+            </if>
+            <if test="orderCode != null and orderCode != ''">
+                and order_code=#{orderCode,jdbcType=VARCHAR}
+            </if>
+            <if test="shopId != null">
+                and shop_id=#{shopId,jdbcType=BIGINT}
+            </if>
+            <if test="operatorType != null">
+                and operator_type=#{operatorType,jdbcType=INTEGER}
+            </if>
+            <if test="orderDate != null">
+                and order_date=#{orderDate,jdbcType=TIMESTAMP}
+            </if>
+            <if test="shipType != null">
+                and ship_type=#{shipType,jdbcType=INTEGER}
+            </if>
+            <if test="checkStatus != null">
+                and check_status=#{checkStatus,jdbcType=INTEGER}
+            </if>
+            <if test="orderStatus != null">
+                and order_status=#{orderStatus,jdbcType=INTEGER}
+            </if>
+            <if test="createdBy != null">
+                and created_by=#{createdBy,jdbcType=BIGINT}
+            </if>
+            <if test="createdDate != null">
+                and created_date=#{createdDate,jdbcType=TIMESTAMP}
+            </if>
+            <if test="lastModifiedBy != null">
+                and last_modified_by=#{lastModifiedBy,jdbcType=BIGINT}
+            </if>
+            <if test="lastModifiedDate != null">
+                and last_modified_date=#{lastModifiedDate,jdbcType=TIMESTAMP}
+            </if>
+            <if test="remarks != null and remarks != ''">
+                and remarks=#{remarks,jdbcType=VARCHAR}
+            </if>
+            <if test="enabled != null">
+                and enabled=#{enabled,jdbcType=BOOLEAN}
+            </if>
+            <if test="tenantCode != null and tenantCode != ''">
+                and tenant_code=#{tenantCode,jdbcType=VARCHAR}
+            </if>
+            <if test="applicationId != null">
+                and application_id=#{applicationId,jdbcType=BIGINT}
+            </if>
+            <if test="version != null">
+                and version=#{version,jdbcType=INTEGER}
+            </if>
+            <if test="carrierCode != null and carrierCode != ''">
+                and carrier_code=#{carrierCode,jdbcType=VARCHAR}
+            </if>
+            <if test="saleId != null">
+                and sale_id=#{saleId,jdbcType=BIGINT}
+            </if>
+            <if test="saleNo != null and saleNo != ''">
+                and sale_no=#{saleNo,jdbcType=VARCHAR}
+            </if>
+        </where>
+    </select>
+  <update id="updateBatch" parameterType="java.util.List">
+    <!--@mbg.generated-->
+    update oper_carrier_order
+    <trim prefix="set" suffixOverrides=",">
+      <trim prefix="order_code = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.orderCode}
+        </foreach>
+      </trim>
+      <trim prefix="shop_id = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.shopId}
+        </foreach>
+      </trim>
+      <trim prefix="operator_type = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.operatorType}
+        </foreach>
+      </trim>
+      <trim prefix="order_date = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.orderDate}
+        </foreach>
+      </trim>
+      <trim prefix="ship_type = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.shipType}
+        </foreach>
+      </trim>
+      <trim prefix="check_status = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.checkStatus}
+        </foreach>
+      </trim>
+      <trim prefix="order_status = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.orderStatus}
+        </foreach>
+      </trim>
+      <trim prefix="created_by = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.createdBy}
+        </foreach>
+      </trim>
+      <trim prefix="created_date = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.createdDate}
+        </foreach>
+      </trim>
+      <trim prefix="last_modified_by = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.lastModifiedBy}
+        </foreach>
+      </trim>
+      <trim prefix="last_modified_date = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.lastModifiedDate}
+        </foreach>
+      </trim>
+      <trim prefix="remarks = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.remarks}
+        </foreach>
+      </trim>
+      <trim prefix="enabled = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.enabled}
+        </foreach>
+      </trim>
+      <trim prefix="tenant_code = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.tenantCode}
+        </foreach>
+      </trim>
+      <trim prefix="application_id = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.applicationId}
+        </foreach>
+      </trim>
+      <trim prefix="version = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.version}
+        </foreach>
+      </trim>
+      <trim prefix="carrier_code = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.carrierCode}
+        </foreach>
+      </trim>
+      <trim prefix="sale_id = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.saleId}
+        </foreach>
+      </trim>
+      <trim prefix="sale_no = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id} then #{item.saleNo}
+        </foreach>
+      </trim>
+    </trim>
+    where id in
+    <foreach close=")" collection="list" item="item" open="(" separator=", ">
+      #{item.id}
+    </foreach>
+  </update>
+  <insert id="batchInsert" keyColumn="id" keyProperty="id" parameterType="map" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into oper_carrier_order
+    (order_code, shop_id, operator_type, order_date, ship_type, check_status, order_status, 
+      created_by, created_date, last_modified_by, last_modified_date, remarks, enabled, 
+      tenant_code, application_id, version, carrier_code, sale_id, sale_no)
+    values
+    <foreach collection="list" item="item" separator=",">
+      (#{item.orderCode}, #{item.shopId}, #{item.operatorType}, #{item.orderDate}, #{item.shipType}, 
+        #{item.checkStatus}, #{item.orderStatus}, #{item.createdBy}, #{item.createdDate}, 
+        #{item.lastModifiedBy}, #{item.lastModifiedDate}, #{item.remarks}, #{item.enabled}, 
+        #{item.tenantCode}, #{item.applicationId}, #{item.version}, #{item.carrierCode}, 
+        #{item.saleId}, #{item.saleNo})
+    </foreach>
+  </insert>
+  <insert id="insertOrUpdate" keyColumn="id" keyProperty="id" parameterType="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPO" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into oper_carrier_order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      order_code,
+      shop_id,
+      operator_type,
+      order_date,
+      ship_type,
+      check_status,
+      order_status,
+      created_by,
+      created_date,
+      last_modified_by,
+      last_modified_date,
+      remarks,
+      enabled,
+      tenant_code,
+      application_id,
+      version,
+      carrier_code,
+      sale_id,
+      sale_no,
+    </trim>
+    values
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id},
+      </if>
+      #{orderCode},
+      #{shopId},
+      #{operatorType},
+      #{orderDate},
+      #{shipType},
+      #{checkStatus},
+      #{orderStatus},
+      #{createdBy},
+      #{createdDate},
+      #{lastModifiedBy},
+      #{lastModifiedDate},
+      #{remarks},
+      #{enabled},
+      #{tenantCode},
+      #{applicationId},
+      #{version},
+      #{carrierCode},
+      #{saleId},
+      #{saleNo},
+    </trim>
+    on duplicate key update 
+    <trim suffixOverrides=",">
+      <if test="id != null">
+        id = #{id},
+      </if>
+      order_code = #{orderCode},
+      shop_id = #{shopId},
+      operator_type = #{operatorType},
+      order_date = #{orderDate},
+      ship_type = #{shipType},
+      check_status = #{checkStatus},
+      order_status = #{orderStatus},
+      created_by = #{createdBy},
+      created_date = #{createdDate},
+      last_modified_by = #{lastModifiedBy},
+      last_modified_date = #{lastModifiedDate},
+      remarks = #{remarks},
+      enabled = #{enabled},
+      tenant_code = #{tenantCode},
+      application_id = #{applicationId},
+      version = #{version},
+      carrier_code = #{carrierCode},
+      sale_id = #{saleId},
+      sale_no = #{saleNo},
+    </trim>
+  </insert>
+  <insert id="insertOrUpdateSelective" keyColumn="id" keyProperty="id" parameterType="com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPO" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into oper_carrier_order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="orderCode != null">
+        order_code,
+      </if>
+      <if test="shopId != null">
+        shop_id,
+      </if>
+      <if test="operatorType != null">
+        operator_type,
+      </if>
+      <if test="orderDate != null">
+        order_date,
+      </if>
+      <if test="shipType != null">
+        ship_type,
+      </if>
+      <if test="checkStatus != null">
+        check_status,
+      </if>
+      <if test="orderStatus != null">
+        order_status,
+      </if>
+      <if test="createdBy != null">
+        created_by,
+      </if>
+      <if test="createdDate != null">
+        created_date,
+      </if>
+      <if test="lastModifiedBy != null">
+        last_modified_by,
+      </if>
+      <if test="lastModifiedDate != null">
+        last_modified_date,
+      </if>
+      <if test="remarks != null">
+        remarks,
+      </if>
+      <if test="enabled != null">
+        enabled,
+      </if>
+      <if test="tenantCode != null">
+        tenant_code,
+      </if>
+      <if test="applicationId != null">
+        application_id,
+      </if>
+      <if test="version != null">
+        version,
+      </if>
+      <if test="carrierCode != null">
+        carrier_code,
+      </if>
+      <if test="saleId != null">
+        sale_id,
+      </if>
+      <if test="saleNo != null">
+        sale_no,
+      </if>
+    </trim>
+    values
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id},
+      </if>
+      <if test="orderCode != null">
+        #{orderCode},
+      </if>
+      <if test="shopId != null">
+        #{shopId},
+      </if>
+      <if test="operatorType != null">
+        #{operatorType},
+      </if>
+      <if test="orderDate != null">
+        #{orderDate},
+      </if>
+      <if test="shipType != null">
+        #{shipType},
+      </if>
+      <if test="checkStatus != null">
+        #{checkStatus},
+      </if>
+      <if test="orderStatus != null">
+        #{orderStatus},
+      </if>
+      <if test="createdBy != null">
+        #{createdBy},
+      </if>
+      <if test="createdDate != null">
+        #{createdDate},
+      </if>
+      <if test="lastModifiedBy != null">
+        #{lastModifiedBy},
+      </if>
+      <if test="lastModifiedDate != null">
+        #{lastModifiedDate},
+      </if>
+      <if test="remarks != null">
+        #{remarks},
+      </if>
+      <if test="enabled != null">
+        #{enabled},
+      </if>
+      <if test="tenantCode != null">
+        #{tenantCode},
+      </if>
+      <if test="applicationId != null">
+        #{applicationId},
+      </if>
+      <if test="version != null">
+        #{version},
+      </if>
+      <if test="carrierCode != null">
+        #{carrierCode},
+      </if>
+      <if test="saleId != null">
+        #{saleId},
+      </if>
+      <if test="saleNo != null">
+        #{saleNo},
+      </if>
+    </trim>
+    on duplicate key update 
+    <trim suffixOverrides=",">
+      <if test="id != null">
+        id = #{id},
+      </if>
+      <if test="orderCode != null">
+        order_code = #{orderCode},
+      </if>
+      <if test="shopId != null">
+        shop_id = #{shopId},
+      </if>
+      <if test="operatorType != null">
+        operator_type = #{operatorType},
+      </if>
+      <if test="orderDate != null">
+        order_date = #{orderDate},
+      </if>
+      <if test="shipType != null">
+        ship_type = #{shipType},
+      </if>
+      <if test="checkStatus != null">
+        check_status = #{checkStatus},
+      </if>
+      <if test="orderStatus != null">
+        order_status = #{orderStatus},
+      </if>
+      <if test="createdBy != null">
+        created_by = #{createdBy},
+      </if>
+      <if test="createdDate != null">
+        created_date = #{createdDate},
+      </if>
+      <if test="lastModifiedBy != null">
+        last_modified_by = #{lastModifiedBy},
+      </if>
+      <if test="lastModifiedDate != null">
+        last_modified_date = #{lastModifiedDate},
+      </if>
+      <if test="remarks != null">
+        remarks = #{remarks},
+      </if>
+      <if test="enabled != null">
+        enabled = #{enabled},
+      </if>
+      <if test="tenantCode != null">
+        tenant_code = #{tenantCode},
+      </if>
+      <if test="applicationId != null">
+        application_id = #{applicationId},
+      </if>
+      <if test="version != null">
+        version = #{version},
+      </if>
+      <if test="carrierCode != null">
+        carrier_code = #{carrierCode},
+      </if>
+      <if test="saleId != null">
+        sale_id = #{saleId},
+      </if>
+      <if test="saleNo != null">
+        sale_no = #{saleNo},
+      </if>
+    </trim>
+  </insert>
+</mapper>

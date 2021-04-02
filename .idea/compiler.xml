@@ -7,15 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="site" />
+        <module name="model" />
         <module name="dao" />
         <module name="common" />
         <module name="web" />
         <module name="service" />
-        <module name="mybatis" />
-        <module name="model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis" target="1.8" />
       <module name="site" target="1.5" />
     </bytecodeTargetLevel>
   </component>
