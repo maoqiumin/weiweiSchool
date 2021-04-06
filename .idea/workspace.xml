@@ -28,34 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9bb869-cc46-42a9-a807-d4d3eb8ecca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/qmmao/weiweischool/service/servicemanger/operator/OperCarrierOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/apicontroller/OperatorApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/mapping/OperCarrierOrderDAO.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/constvar/ConstVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/constvar/ConstVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/qmmao/mybatis/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/qmmao/mybatis/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/qmmao/mybatis/mapper/CustomerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/WebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/qmmao/web/WebApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,15 +130,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.WebApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,7 +307,8 @@
       <workItem from="1617276618449" duration="1142000" />
       <workItem from="1617277835735" duration="2542000" />
       <workItem from="1617328405183" duration="8296000" />
-      <workItem from="1617342846021" duration="7494000" />
+      <workItem from="1617342846021" duration="8825000" />
+      <workItem from="1617670663926" duration="2189000" />
     </task>
     <servers />
   </component>
