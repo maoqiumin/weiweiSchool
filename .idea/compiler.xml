@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="model" />
         <module name="dao" />
         <module name="common" />
         <module name="web" />
         <module name="service" />
+        <module name="security-jwt-service-resources" />
+        <module name="model" />
+        <module name="security-jwt-common" />
+        <module name="security-jwt-auth-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +27,9 @@
       <module name="dao" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="security-jwt-auth-server" options="-parameters" />
+      <module name="security-jwt-common" options="-parameters" />
+      <module name="security-jwt-service-resources" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>

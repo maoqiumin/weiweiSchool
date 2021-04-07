@@ -20,6 +20,9 @@
         <module>web</module>
         <module>service</module>
         <module>dao</module>
+        <module>security-jwt-auth-server</module>
+        <module>security-jwt-common</module>
+        <module>security-jwt-service-resources</module>
     </modules>
 
     <dependencyManagement>
