@@ -28,31 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9bb869-cc46-42a9-a807-d4d3eb8ecca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/config/RsaKeyProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/filter/TokenLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/filter/TokenVerifyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-auth-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/RolePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/RsaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-common/src/test/java/com/qmmao/weiweischool/security/common/util/RsaUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-jwt-service-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/constvar/ConstVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/constvar/ConstVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-jwt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-jwt-common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +358,7 @@
       <workItem from="1617277835735" duration="2542000" />
       <workItem from="1617328405183" duration="8296000" />
       <workItem from="1617342846021" duration="8825000" />
-      <workItem from="1617670663926" duration="16291000" />
+      <workItem from="1617670663926" duration="16721000" />
     </task>
     <servers />
   </component>
@@ -415,11 +392,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/filter/TokenLoginFilter.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/service/impl/UserServiceImpl.java</url>
           <line>23</line>
