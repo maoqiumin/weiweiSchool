@@ -1,4 +1,4 @@
-package com.qmmao.weiweischool.constvar;
+package com.qmmao.weiweischool.model.constvar;
 
 /**
  * @author maoqi

@@ -1,6 +1,6 @@
-package com.qmmao.weiweischool.model.common;
+package com.qmmao.weiweischool.model;
 
-import com.qmmao.weiweischool.constvar.ConstVar;
+import com.qmmao.weiweischool.model.constvar.ConstVar;
 
 /**
  * @author maoqi

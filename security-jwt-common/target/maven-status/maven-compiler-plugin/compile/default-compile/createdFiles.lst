@@ -1,6 +1,8 @@
-com\qmmao\weiweischool\security\common\domin\PayLoad.class
 com\qmmao\weiweischool\security\common\domin\UserPojo.class
+com\qmmao\weiweischool\security\common\util\ImageCodeGenerator.class
 com\qmmao\weiweischool\security\common\util\JsonUtil.class
 com\qmmao\weiweischool\security\common\util\JwtUtil.class
 com\qmmao\weiweischool\security\common\util\RsaUtil.class
 com\qmmao\weiweischool\security\common\domin\RolePojo.class
+com\qmmao\weiweischool\security\common\domin\PayLoad.class
+com\qmmao\weiweischool\security\common\domin\ImageCode.class

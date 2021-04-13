@@ -1,6 +1,6 @@
 package com.qmmao.weiweischool.service.servicemanger.operator;
 
-import com.qmmao.weiweischool.constvar.ConstVar;
+import com.qmmao.weiweischool.model.constvar.ConstVar;
 import com.qmmao.weiweischool.dao.operatordb.entity.OperCarrierOrderPO;
 import com.qmmao.weiweischool.dao.operatordb.mapper.OperCarrierOrderDAO;
 import org.springframework.beans.factory.annotation.Autowired;

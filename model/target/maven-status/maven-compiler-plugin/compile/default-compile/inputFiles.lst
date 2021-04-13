@@ -1,4 +1,5 @@
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\common\BaseApiResponse.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\login\UserInfo.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\customer\CustomerVO.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\constvar\ConstVar.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\constvar\ConstVar.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\enums\RoleEnum.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\BaseApiResponse.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\login\UserInfo.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\customer\CustomerVO.java

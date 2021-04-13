@@ -1,4 +1,4 @@
-package com.qmmao.weiweischool.customer;
+package com.qmmao.weiweischool.model.customer;
 
 /**
  * @author maoqi

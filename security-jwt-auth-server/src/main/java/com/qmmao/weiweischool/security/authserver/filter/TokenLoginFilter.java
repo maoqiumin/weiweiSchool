@@ -1,7 +1,7 @@
 package com.qmmao.weiweischool.security.authserver.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qmmao.weiweischool.constvar.ConstVar;
+import com.qmmao.weiweischool.model.constvar.ConstVar;
 import com.qmmao.weiweischool.security.authserver.config.RsaKeyProperties;
 import com.qmmao.weiweischool.security.common.domin.RolePojo;
 import com.qmmao.weiweischool.security.common.domin.UserPojo;

@@ -1,6 +1,6 @@
-package com.qmmao.weiweischool.util;
+package com.qmmao.weiweischool.common.util;
 
-import com.qmmao.weiweischool.model.common.BaseApiResponse;
+import com.qmmao.weiweischool.model.BaseApiResponse;
 
 /**
  * @author maoqi

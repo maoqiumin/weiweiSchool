@@ -1,11 +1,11 @@
-package com.qmmao.weiweischool.security.authserver.filter;
+package com.qmmao.weiweischool.security.resources.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.qmmao.weiweischool.model.constvar.ConstVar;
-import com.qmmao.weiweischool.security.authserver.config.RsaKeyProperties;
 import com.qmmao.weiweischool.security.common.domin.PayLoad;
 import com.qmmao.weiweischool.security.common.domin.UserPojo;
 import com.qmmao.weiweischool.security.common.util.JwtUtil;
+import com.qmmao.weiweischool.security.resources.config.RsaKeyProperties;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

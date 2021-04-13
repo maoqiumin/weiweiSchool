@@ -3,7 +3,7 @@ package com.qmmao.weiweischool.security.common.util;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qmmao.weiweischool.constvar.ConstVar;
+import com.qmmao.weiweischool.model.constvar.ConstVar;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,5 @@
-com\qmmao\weiweischool\customer\CustomerVO.class
-com\qmmao\weiweischool\login\UserInfo.class
-com\qmmao\weiweischool\model\common\BaseApiResponse.class
-com\qmmao\weiweischool\constvar\ConstVar.class
+com\qmmao\weiweischool\model\login\UserInfo.class
+com\qmmao\weiweischool\model\customer\CustomerVO.class
+com\qmmao\weiweischool\model\enums\RoleEnum.class
+com\qmmao\weiweischool\model\constvar\ConstVar.class
+com\qmmao\weiweischool\model\BaseApiResponse.class
