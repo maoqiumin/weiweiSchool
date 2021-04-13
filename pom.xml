@@ -23,6 +23,7 @@
         <module>security-jwt-auth-server</module>
         <module>security-jwt-common</module>
         <module>security-jwt-service-resources</module>
+        <module>security-auth</module>
     </modules>
 
     <dependencyManagement>

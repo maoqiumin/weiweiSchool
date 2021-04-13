@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Security Example </title>
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div th:if="${param.error}">
+    <span th:value="${param.error}"></span>
+    Invalid username and password.
+</div>
+<div th:if="${param.logout}">
+    You have been logged out.
+</div>
+<form th:action="@{/login}" method="post">
+    <div><label> User Name : <input type="text" name="username"/> </label></div>
+    <div><label> Password: <input type="password" name="password"/> </label></div>
+  <!--  <div><label> code: <input type="text" name="captcha"/> </label> <img src="/getCode" id="code" alt="验证码" onclick="refresh(this)"/></div>
+    <label> <input type="hidden" name="uuid" id="uuid"/> </label>-->
+    <div><input type="submit" value="Sign In"/></div>
+</form>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+
+    window.onload =()=> {
+        $("#code").click();
+    };
+
+    let refresh=(obj)=>{
+        $.get("/getCode", function(data){
+            obj.src=data.data.img;
+            $("#uuid").val(data.data.uuid);
+        });
+    };
+
+
+    let  login=(url)=>{
+        let username = $("input[name = 'username']");
+        let password = $("input[name = 'password']");
+        $.ajax({
+            type : "POST",
+            dataType : "json",
+            url : url,
+            data : {
+                "username" : username.val(),
+                "password" : password.val()
+            },
+            success : function(data) {
+                console.log(data);
+                if (data.success === false) {
+                    alert("错误的用户或密码");
+                } else {
+                    //登录成功
+                    window.location.href = "/";
+                }
+            },
+            error : function(data) {
+                alert("错误的用户或密码");
+            },
+            beforeSend : function() {
+                if (username.val() === "") {
+                    alert("请输入用户名!");
+                    username.focus();
+                    return false;
+                }
+                if (password.val() === "") {
+                    alert("请输入密码!");
+                    password.focus();
+                    return false;
+                }
+            }
+        });
+    };
+
+    $("body").keydown(function(event) {
+
+        let code;
+
+        /*
+            跨浏览器支持
+        */
+        if (event.key !== undefined) {
+            code = event.key;
+        } else if (event.keyIdentifier !== undefined) {
+            code = event.keyIdentifier;
+        } else if (event.keyCode !== undefined) {
+            code = event.keyCode;
+        }
+
+        if (code === "13") {//keyCode=13是回车键
+            $('.loginBtn').trigger("click");
+        }
+    });
+
+
+    /*]]>*/
+</script>
+</body>
+</html>

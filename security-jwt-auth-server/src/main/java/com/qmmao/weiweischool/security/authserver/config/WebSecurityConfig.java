@@ -36,6 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * 指定认证对象的来源
      * @param auth
+     *
      * @throws Exception
      */
     @Override

@@ -12,6 +12,7 @@
         <module name="service" />
         <module name="security-jwt-service-resources" />
         <module name="model" />
+        <module name="security-auth" />
         <module name="security-jwt-common" />
         <module name="security-jwt-auth-server" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="dao" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="security-auth" options="-parameters" />
       <module name="security-jwt-auth-server" options="-parameters" />
       <module name="security-jwt-common" options="-parameters" />
       <module name="security-jwt-service-resources" options="-parameters" />

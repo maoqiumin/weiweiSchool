@@ -1,4 +1,4 @@
-package com.qmmao.weiweischool.model.login;
+package com.qmmao.weiweischool.model.vo.login;
 
 /**
  * @author maoqi

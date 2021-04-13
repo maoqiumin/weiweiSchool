@@ -1,0 +1,4 @@
+com\qmmao\weiweischool\sercurity\auth\config\WebSecurityConfig.class
+com\qmmao\weiweischool\sercurity\auth\AuthApplication.class
+com\qmmao\weiweischool\sercurity\auth\apicontroller\MainController.class
+com\qmmao\weiweischool\sercurity\auth\config\WebMvcConfig.class
