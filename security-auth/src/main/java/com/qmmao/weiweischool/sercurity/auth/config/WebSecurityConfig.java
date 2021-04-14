@@ -24,6 +24,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private VerifyCodeFilter verifyCodeFilter;
 
+    @Autowired
+    private CustomUserDetailsServiceImpl customUserDetailsService;
+
     /**
      * spring5.0之后，spring security必须设置加密方法否则会报
      * There is no PasswordEncoder mapped for the id "null"
@@ -37,8 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().passwordEncoder(passwordEncoder())
-                .withUser("admin").password(passwordEncoder().encode("admin")).roles("USER");
+        auth.userDetailsService(customUserDetailsService).passwordEncoder(passwordEncoder());
     }
 
     @Override
@@ -46,7 +48,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         /* 需要授权的请求 */
         http.authorizeRequests()
                 /* 过滤不需要认证的路径 */
-                .antMatchers("/login", "/home").permitAll()
+                .antMatchers("/login", "/home", "/getCode").permitAll()
                 .anyRequest().authenticated() /* 对任何一个请求，都需要认证 */
                 .and() /* 完成上一个配置，进行下一步配置 */
                 //.httpBasic();

@@ -2,10 +2,12 @@ package com.qmmao.weiweischool.model;
 
 import com.qmmao.weiweischool.model.constvar.ConstVar;
 
+import java.io.Serializable;
+
 /**
  * @author maoqi
  */
-public class BaseApiResponse<T> {
+public class BaseApiResponse<T> implements Serializable {
     /**
      * 返回code，成功为1，-1为失败
      */

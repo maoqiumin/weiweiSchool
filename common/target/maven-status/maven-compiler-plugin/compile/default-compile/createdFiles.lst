@@ -1,1 +1,4 @@
+com\qmmao\weiweischool\common\util\IPUtil.class
+com\qmmao\weiweischool\common\util\UUIDUtil.class
 com\qmmao\weiweischool\common\util\ApiResponseUtil.class
+com\qmmao\weiweischool\common\util\VerifyCodeUtil.class

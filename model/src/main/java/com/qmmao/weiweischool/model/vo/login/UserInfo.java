@@ -1,26 +1,42 @@
 package com.qmmao.weiweischool.model.vo.login;
 
+import com.qmmao.weiweischool.dao.teachingdb.entity.AuthorityGen;
+import com.qmmao.weiweischool.dao.teachingdb.entity.RoleGen;
+import com.qmmao.weiweischool.dao.teachingdb.entity.UserGen;
+
+import java.util.List;
+
 /**
  * @author maoqi
  */
 public class UserInfo {
-    private String userName;
+    private UserGen userInfo;
 
-    private String userId;
+    private List<RoleGen> roles;
 
-    public String getUserName() {
-        return userName;
+    private List<AuthorityGen> authorities;
+
+    public UserGen getUserInfo() {
+        return userInfo;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserInfo(UserGen userInfo) {
+        this.userInfo = userInfo;
     }
 
-    public String getUserId() {
-        return userId;
+    public List<RoleGen> getRoles() {
+        return roles;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
+    public void setRoles(List<RoleGen> roles) {
+        this.roles = roles;
+    }
+
+    public List<AuthorityGen> getAuthorities() {
+        return authorities;
+    }
+
+    public void setAuthorities(List<AuthorityGen> authorities) {
+        this.authorities = authorities;
     }
 }

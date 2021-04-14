@@ -15,8 +15,8 @@
 <form th:action="@{/login}" method="post">
     <div><label> User Name : <input type="text" name="username"/> </label></div>
     <div><label> Password: <input type="password" name="password"/> </label></div>
-  <!--  <div><label> code: <input type="text" name="captcha"/> </label> <img src="/getCode" id="code" alt="验证码" onclick="refresh(this)"/></div>
-    <label> <input type="hidden" name="uuid" id="uuid"/> </label>-->
+    <div><label> code: <input type="text" name="captcha"/> </label> <img src="/getCode" id="code" alt="验证码" onclick="refresh(this)"/></div>
+    <label> <input type="hidden" name="uuid" id="uuid"/> </label>
     <div><input type="submit" value="Sign In"/></div>
 </form>
 <script th:inline="javascript">

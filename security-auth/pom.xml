@@ -32,5 +32,11 @@
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>weiweiSchool</groupId>
+            <artifactId>service</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
