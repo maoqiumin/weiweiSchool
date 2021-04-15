@@ -1,8 +1,12 @@
-com\qmmao\weiweischool\sercurity\auth\config\WebSecurityConfig.class
 com\qmmao\weiweischool\sercurity\auth\AuthApplication.class
 com\qmmao\weiweischool\sercurity\auth\config\code\VerifyCodeException.class
+com\qmmao\weiweischool\sercurity\auth\config\web\WebSecurityConfig.class
 com\qmmao\weiweischool\sercurity\auth\config\code\VerifyCodeFilter.class
 com\qmmao\weiweischool\sercurity\auth\apicontroller\MainController.class
-com\qmmao\weiweischool\sercurity\auth\config\WebMvcConfig.class
 com\qmmao\weiweischool\sercurity\auth\config\handle\LoginFailureHandler.class
+com\qmmao\weiweischool\sercurity\auth\config\key\JwtAuthorizationTokenFilter.class
+com\qmmao\weiweischool\sercurity\auth\config\user\SecurityUser.class
 com\qmmao\weiweischool\sercurity\auth\config\handle\LoginSuccessHandler.class
+com\qmmao\weiweischool\sercurity\auth\config\web\WebMvcConfig.class
+com\qmmao\weiweischool\sercurity\auth\config\key\RsaKeyProperties.class
+com\qmmao\weiweischool\sercurity\auth\config\user\CustomUserDetailsServiceImpl.class

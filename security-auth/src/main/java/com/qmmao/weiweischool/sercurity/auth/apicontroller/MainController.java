@@ -2,7 +2,7 @@ package com.qmmao.weiweischool.sercurity.auth.apicontroller;
 
 import com.qmmao.weiweischool.common.util.ApiResponseUtil;
 import com.qmmao.weiweischool.common.util.UUIDUtil;
-import com.qmmao.weiweischool.common.util.VerifyCodeUtil;
+import com.qmmao.weiweischool.common.util.login.VerifyCodeUtil;
 import com.qmmao.weiweischool.model.BaseApiResponse;
 import com.qmmao.weiweischool.model.constvar.ConstVar;
 import com.qmmao.weiweischool.model.vo.login.ImgVO;
@@ -26,7 +26,7 @@ public class MainController {
     private static final Logger LOGGER = LoggerFactory.getLogger(LoginFailureHandler.class);
 
     @GetMapping("/123")
-    public Object login() {
+    public Object test() {
         return "hello world";
     }
 

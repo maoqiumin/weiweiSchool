@@ -1,4 +1,4 @@
-package com.qmmao.weiweischool.sercurity.auth.config;
+package com.qmmao.weiweischool.sercurity.auth.config.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

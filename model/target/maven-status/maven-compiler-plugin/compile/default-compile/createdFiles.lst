@@ -1,5 +1,7 @@
-com\qmmao\weiweischool\model\vo\login\UserInfo.class
 com\qmmao\weiweischool\model\vo\login\ImgVO.class
+com\qmmao\weiweischool\model\vo\login\UserInfoDTO.class
+com\qmmao\weiweischool\model\vo\login\RoleDTO.class
+com\qmmao\weiweischool\model\vo\login\PayLoad.class
 com\qmmao\weiweischool\model\customer\CustomerVO.class
 com\qmmao\weiweischool\model\enums\RoleEnum.class
 com\qmmao\weiweischool\model\constvar\ConstVar.class

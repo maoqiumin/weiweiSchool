@@ -12,5 +12,7 @@ public final class ConstVar {
     public final static Boolean BOOLEAN_TRUE = true;
     public final static Boolean BOOLEAN_FALSE = false;
     public final static String LOGIN = "/login";
+    public final static String GETCODE = "/getCode";
     public final static String POST = "post";
+    public final static String APPLICATION_JSON_UTF8_VALUE="application/json;charset=utf-8";
 }

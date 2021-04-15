@@ -1,4 +1,5 @@
 com\qmmao\weiweischool\service\rpc\Service.class
 com\qmmao\weiweischool\service\impl\Services.class
+com\qmmao\weiweischool\service\servicemanger\user\UserService.class
 com\qmmao\weiweischool\service\rpc\Provider.class
 com\qmmao\weiweischool\service\servicemanger\operator\OperCarrierOrderService.class

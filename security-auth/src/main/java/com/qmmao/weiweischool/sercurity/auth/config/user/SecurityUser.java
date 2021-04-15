@@ -1,8 +1,8 @@
-package com.qmmao.weiweischool.sercurity.auth.config;
+package com.qmmao.weiweischool.sercurity.auth.config.user;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.qmmao.weiweischool.dao.teachingdb.entity.AuthorityGen;
-import com.qmmao.weiweischool.model.vo.login.UserInfo;
+import com.qmmao.weiweischool.model.vo.login.RoleDTO;
+import com.qmmao.weiweischool.model.vo.login.UserInfoDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
@@ -19,9 +19,17 @@ import java.util.List;
  */
 public class SecurityUser implements UserDetails {
 
-    private UserInfo userInfo;
+    private UserInfoDTO userInfo;
 
-    SecurityUser(UserInfo userInfo) {
+    public UserInfoDTO getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(UserInfoDTO userInfo) {
+        this.userInfo = userInfo;
+    }
+
+    SecurityUser(UserInfoDTO userInfo) {
         this.userInfo = userInfo;
     }
 
@@ -35,13 +43,13 @@ public class SecurityUser implements UserDetails {
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         Collection<GrantedAuthority> authorities = new ArrayList<>();
-        if (userInfo == null || CollectionUtils.isEmpty(userInfo.getAuthorities())) {
+        if (userInfo == null || CollectionUtils.isEmpty(userInfo.getRoles())) {
             log.info("获取登录用户已具有的权限：{}", authorities.toString());
             return authorities;
         }
-        List<AuthorityGen> authorityGenList = userInfo.getAuthorities();
-        for (AuthorityGen authorityGen : authorityGenList) {
-            SimpleGrantedAuthority authority = new SimpleGrantedAuthority(authorityGen.getAuthorityCode());
+        List<RoleDTO> authorityGenList = userInfo.getRoles();
+        for (RoleDTO authorityGen : authorityGenList) {
+            SimpleGrantedAuthority authority = new SimpleGrantedAuthority(authorityGen.getRoleCode());
             authorities.add(authority);
         }
         log.info("获取登录用户已具有的权限：{}", authorities.toString());
@@ -50,16 +58,16 @@ public class SecurityUser implements UserDetails {
 
     @Override
     public String getPassword() {
-        if (userInfo != null && userInfo.getUserInfo() != null) {
-            return userInfo.getUserInfo().getPassword();
+        if (userInfo != null) {
+            return userInfo.getPassword();
         }
         return StringUtils.EMPTY;
     }
 
     @Override
     public String getUsername() {
-        if (userInfo != null && userInfo.getUserInfo() != null) {
-            return userInfo.getUserInfo().getName();
+        if (userInfo != null) {
+            return userInfo.getUserName();
         }
         return StringUtils.EMPTY;
     }

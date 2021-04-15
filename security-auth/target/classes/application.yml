@@ -9,3 +9,7 @@ spring:
     url: jdbc:mysql://192.168.3.190:3306/summer_operator?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
     username: program
     password: IK@!n0U5h$3K$E
+rsa:
+  key:
+    pubKeyFile: c:\tools\auth_key\id_key_rsa.pub
+    priKeyFile: c:\tools\auth_key\id_key_rsa

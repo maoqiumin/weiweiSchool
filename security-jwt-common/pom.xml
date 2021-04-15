@@ -48,10 +48,10 @@
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>weiweiSchool</groupId>
             <artifactId>model</artifactId>

@@ -1,4 +1,4 @@
-package com.qmmao.weiweischool.common.util;
+package com.qmmao.weiweischool.common.util.login;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

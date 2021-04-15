@@ -10,6 +10,8 @@ public class AuthorityGen {
 
     private String authorityName;
 
+    private Long roleId;
+
     public Long getId() {
         return id;
     }
@@ -32,5 +34,13 @@ public class AuthorityGen {
 
     public void setAuthorityName(String authorityName) {
         this.authorityName = authorityName;
+    }
+
+    public Long getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
     }
 }

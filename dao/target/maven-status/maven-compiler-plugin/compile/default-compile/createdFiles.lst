@@ -1,7 +1,10 @@
 com\qmmao\weiweischool\dao\operatordb\entity\OperCarrierOrderPOExample.class
 com\qmmao\weiweischool\dao\teachingdb\entity\CustomerGen.class
+com\qmmao\weiweischool\dao\teachingdb\entity\RoleGen.class
 com\qmmao\weiweischool\dao\operatordb\mapper\OperCarrierOrderDAO.class
 com\qmmao\weiweischool\dao\operatordb\entity\OperCarrierOrderPO.class
 com\qmmao\weiweischool\dao\operatordb\entity\OperCarrierOrderPOExample$Criteria.class
+com\qmmao\weiweischool\dao\teachingdb\entity\UserGen.class
+com\qmmao\weiweischool\dao\teachingdb\entity\AuthorityGen.class
 com\qmmao\weiweischool\dao\operatordb\entity\OperCarrierOrderPOExample$GeneratedCriteria.class
 com\qmmao\weiweischool\dao\operatordb\entity\OperCarrierOrderPOExample$Criterion.class
