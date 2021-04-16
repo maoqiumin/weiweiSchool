@@ -29,7 +29,7 @@ public class SecurityUser implements UserDetails {
         this.userInfo = userInfo;
     }
 
-    SecurityUser(UserInfoDTO userInfo) {
+    public SecurityUser(UserInfoDTO userInfo) {
         this.userInfo = userInfo;
     }
 

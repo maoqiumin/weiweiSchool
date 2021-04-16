@@ -5,6 +5,8 @@ import com.qmmao.weiweischool.model.constvar.ConstVar;
 import com.qmmao.weiweischool.model.vo.login.PayLoad;
 import com.qmmao.weiweischool.model.vo.login.UserInfoDTO;
 import com.qmmao.weiweischool.sercurity.auth.config.handle.LoginFailureHandler;
+import com.qmmao.weiweischool.sercurity.auth.config.user.SecurityUser;
+import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,8 +63,11 @@ public class JwtAuthorizationTokenFilter extends OncePerRequestFilter {
         if (payload.getUserInfo() == null) {
             throw new AuthenticationServiceException("Token 无效");
         }
-        //todo token过期
-        UsernamePasswordAuthenticationToken authResult = new UsernamePasswordAuthenticationToken(payload, null);
+        if (payload.getExpiration().before(DateTime.now().toDate())) {
+            throw new AuthenticationServiceException("Token 过期");
+        }
+        SecurityUser securityUser = new SecurityUser(payload.getUserInfo());
+        UsernamePasswordAuthenticationToken authResult = new UsernamePasswordAuthenticationToken(securityUser, null, securityUser.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(authResult);
     }
 }

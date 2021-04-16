@@ -28,44 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9bb869-cc46-42a9-a807-d4d3eb8ecca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/RsaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/qmmao/weiweischool/common/util/RsaUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/JwtAuthorizationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/RsaKeyProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/VerifyCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/VerifyCodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/AuthorityGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/AuthorityGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/constvar/ConstVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/constvar/ConstVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/UserInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/apicontroller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/apicontroller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/CustomUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/CustomUserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/SecurityUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/web/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/web/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-jwt-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/qmmao/weiweischool/service/servicemanger/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/qmmao/weiweischool/service/servicemanger/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/JwtAuthorizationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/JwtAuthorizationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/apicontroller/LoginApiController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,7 +400,7 @@
       <workItem from="1618189817269" duration="122000" />
       <workItem from="1618281952610" duration="362000" />
       <workItem from="1618297486288" duration="879000" />
-      <workItem from="1618298610007" duration="41249000" />
+      <workItem from="1618298610007" duration="46585000" />
     </task>
     <servers />
   </component>
@@ -486,10 +452,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618469023113" />
-    <state x="1045" y="257" key="#xdebugger.evaluate" timestamp="1618476492111">
+    <state x="1045" y="257" key="#xdebugger.evaluate" timestamp="1618537678539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="257" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1618476492111" />
+    <state x="1045" y="257" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1618537678539" />
     <state x="750" y="48" key="#自动导入" timestamp="1618388231376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -502,54 +468,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618386382781" />
-    <state width="1485" height="407" key="GridCell.Tab.0.bottom" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.0.bottom" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.0.center" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.0.center" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.0.left" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.0.left" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.0.right" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.0.right" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.1.bottom" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.1.bottom" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.1.center" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.1.center" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.1.left" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.1.left" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.1.right" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.1.right" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.2.bottom" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.2.bottom" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.2.center" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.2.center" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.2.left" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.2.left" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
-    <state width="1485" height="407" key="GridCell.Tab.2.right" timestamp="1618479217184">
+    <state width="1485" height="407" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
+    <state width="1485" height="407" key="GridCell.Tab.2.right" timestamp="1618552111254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618479217184" />
+    <state width="1485" height="407" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618552111254" />
     <state x="489" y="174" key="Maven.ArtifactSearchDialog" timestamp="1618387087899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -570,6 +536,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="417" y="255" width="1086" height="643" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1618474543121" />
+    <state x="698" y="252" width="646" height="536" key="find.popup" timestamp="1618537174985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="252" width="646" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618537174985" />
     <state x="489" y="179" key="new project wizard" timestamp="1618302647831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -578,10 +548,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="264" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618469636854" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1618304521094">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618537151289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618304521094" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618537151289" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,9 +567,9 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/JwtAuthorizationTokenFilter.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/apicontroller/MainController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />
