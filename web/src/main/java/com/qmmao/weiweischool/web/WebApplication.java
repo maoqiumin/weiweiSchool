@@ -1,10 +1,12 @@
 package com.qmmao.weiweischool.web;
 
+import com.qmmao.weiweischool.web.config.RsaKeyProperties;
 import org.apache.ibatis.annotations.Mapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
@@ -12,6 +14,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication(scanBasePackages = {"com.qmmao.weiweischool.service.servicemanger.operator","com.qmmao.weiweischool.web"})
 @MapperScan(value = "com.qmmao.weiweischool.dao.operatordb.mapper", annotationClass = Mapper.class)
+@EnableConfigurationProperties(RsaKeyProperties.class)
 public class WebApplication extends SpringBootServletInitializer {
 
     /*public static void main(String[] args) {

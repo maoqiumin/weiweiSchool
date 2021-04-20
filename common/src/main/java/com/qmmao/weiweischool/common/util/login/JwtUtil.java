@@ -2,7 +2,7 @@ package com.qmmao.weiweischool.common.util.login;
 
 
 import com.qmmao.weiweischool.common.util.JsonUtil;
-import com.qmmao.weiweischool.model.vo.login.PayLoad;
+import com.qmmao.weiweischool.model.PayLoad;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
@@ -28,7 +28,7 @@ public class JwtUtil {
      * @param expire     过期时间，单位分钟
      * @return JWT
      */
-    public static String generateTokenExpireInMinutes(Object userInfo, PrivateKey privateKey, int expire) {
+    public static <T> String generateTokenExpireInMinutes(T userInfo, PrivateKey privateKey, int expire) {
         return Jwts.builder()
                 .claim(JWT_PAYLOAD_USER_KEY, JsonUtil.toString(userInfo))
                 .setId(createJti())

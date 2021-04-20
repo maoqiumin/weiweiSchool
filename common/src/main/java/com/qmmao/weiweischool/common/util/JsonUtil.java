@@ -34,6 +34,24 @@ public class JsonUtil {
         }
     }
 
+    /**
+     * 对象转Json格式字符串
+     *
+     * @param obj 对象
+     * @return Json格式字符串
+     */
+    public static <T> String toJsonString(T obj) {
+        if (obj == null) {
+            return null;
+        }
+        try {
+            return obj instanceof String ? (String) obj : mapper.writeValueAsString(obj);
+        } catch (JsonProcessingException e) {
+            logger.warn("Parse Object to String error : {}", e.getMessage());
+            return null;
+        }
+    }
+
     public static <T> T toBean(String json, Class<T> tClass) {
         try {
             return mapper.readValue(json, tClass);

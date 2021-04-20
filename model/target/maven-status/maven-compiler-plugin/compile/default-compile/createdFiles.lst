@@ -1,8 +1,11 @@
-com\qmmao\weiweischool\model\vo\login\ImgVO.class
-com\qmmao\weiweischool\model\vo\login\UserInfoDTO.class
-com\qmmao\weiweischool\model\vo\login\RoleDTO.class
-com\qmmao\weiweischool\model\vo\login\PayLoad.class
+com\qmmao\weiweischool\model\PayLoad.class
+com\qmmao\weiweischool\model\auth\vo\UserVO.class
+com\qmmao\weiweischool\model\auth\dto\AccountInfoDTO.class
+com\qmmao\weiweischool\model\enums\ResponseCodeEnum.class
+com\qmmao\weiweischool\model\auth\vo\ImgVO.class
 com\qmmao\weiweischool\model\customer\CustomerVO.class
-com\qmmao\weiweischool\model\enums\RoleEnum.class
+com\qmmao\weiweischool\model\auth\form\LoginForm.class
 com\qmmao\weiweischool\model\constvar\ConstVar.class
+com\qmmao\weiweischool\model\constvar\MessageConstVar.class
 com\qmmao\weiweischool\model\BaseApiResponse.class
+com\qmmao\weiweischool\model\enums\AccountStatusEnum.class

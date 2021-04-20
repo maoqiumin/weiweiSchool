@@ -1,8 +1,11 @@
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\vo\login\ImgVO.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\vo\login\PayLoad.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\vo\login\UserInfoDTO.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\enums\AccountStatusEnum.java
 E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\constvar\ConstVar.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\vo\login\RoleDTO.java
-E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\enums\RoleEnum.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\enums\ResponseCodeEnum.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\auth\form\LoginForm.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\constvar\MessageConstVar.java
 E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\BaseApiResponse.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\auth\dto\AccountInfoDTO.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\auth\vo\UserVO.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\auth\vo\ImgVO.java
 E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\customer\CustomerVO.java
+E:\demo\weiweiSchool\model\src\main\java\com\qmmao\weiweischool\model\PayLoad.java

@@ -22,6 +22,10 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/security-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/security-jwt-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/security-jwt-common/pom.xml" />
+        <option value="$PROJECT_DIR$/security-jwt-service-resources/pom.xml" />
         <option value="$PROJECT_DIR$/site/pom.xml" />
       </set>
     </option>

@@ -1,16 +1,10 @@
 package com.qmmao.weiweischool.service.servicemanger.user;
 
-import com.qmmao.weiweischool.dao.teachingdb.entity.AuthorityGen;
-import com.qmmao.weiweischool.dao.teachingdb.entity.RoleGen;
-import com.qmmao.weiweischool.dao.teachingdb.entity.UserGen;
-import com.qmmao.weiweischool.model.vo.login.RoleDTO;
-import com.qmmao.weiweischool.model.vo.login.UserInfoDTO;
-import org.assertj.core.util.Lists;
+import com.qmmao.weiweischool.model.auth.dto.AccountInfoDTO;
+import com.qmmao.weiweischool.model.enums.AccountStatusEnum;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.time.LocalDateTime;
 
 /**
  * @author DELL
@@ -24,46 +18,17 @@ public class UserService {
      * @param userName
      * @return
      */
-    public UserInfoDTO findUserByUsername(String userName) {
+    public AccountInfoDTO findUserByUsername(String userName) {
         //todo 访问数据库 userName
-        UserGen userGen = new UserGen();
-        userGen.setName("admin");
-        userGen.setPassword("admin");
-        List<RoleGen> roleGens = Lists.newArrayList();
-        RoleGen roleGen = new RoleGen();
-        roleGen.setId(11L);
-        roleGen.setRoleCode("admin");
-        roleGen.setRoleName("管理员角色");
-        roleGens.add(roleGen);
-        List<AuthorityGen> authorityGens = Lists.newArrayList();
-        AuthorityGen authorityGen = new AuthorityGen();
-        authorityGen.setAuthorityName("所有操作权限");
-        authorityGen.setAuthorityCode("all");
-        authorityGen.setId(333L);
-        authorityGen.setRoleId(11L);
-        authorityGens.add(authorityGen);
-        return convert(userGen, roleGens, authorityGens);
-    }
-
-    private UserInfoDTO convert(UserGen userGen, List<RoleGen> roleGens, List<AuthorityGen> authorityGens) {
-        UserInfoDTO userInfoDTO = new UserInfoDTO();
-        userInfoDTO.setDelete(userGen.getDelete());
-        userInfoDTO.setId(userGen.getId());
-        userInfoDTO.setPassword(userGen.getPassword());
-        userInfoDTO.setStatus(userGen.getStatus());
-        userInfoDTO.setUserName(userGen.getName());
-        List<RoleDTO> roles = new ArrayList<>(roleGens.size());
-        for (RoleGen roleGen : roleGens) {
-            RoleDTO tempRole = new RoleDTO();
-            tempRole.setRoleCode(roleGen.getRoleCode());
-            tempRole.setRoleName(roleGen.getRoleName());
-            tempRole.setRoleId(roleGen.getId());
-            List<String> authCodes = authorityGens.stream().filter(x -> x.getRoleId().equals(roleGen.getId()))
-                    .map(AuthorityGen::getAuthorityCode).distinct().collect(Collectors.toList());
-            tempRole.setAuthorityCodes(authCodes);
-            roles.add(tempRole);
-        }
-        userInfoDTO.setRoles(roles);
-        return userInfoDTO;
+        AccountInfoDTO accountInfoDTO=new AccountInfoDTO();
+        accountInfoDTO.setAccountCode("ww123456");
+        accountInfoDTO.setAccountId(1L);
+        accountInfoDTO.setBindEmail("1136@qq.com");
+        accountInfoDTO.setBindPhone("18296160000");
+        accountInfoDTO.setExpireTime(LocalDateTime.now().plusDays(1));
+        accountInfoDTO.setPassword("123456");
+        accountInfoDTO.setRealName("杨卫");
+        accountInfoDTO.setStatus(AccountStatusEnum.VALID.getCode());
+        return accountInfoDTO;
     }
 }

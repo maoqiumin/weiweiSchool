@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div><label> User Name : <input type="text" name="username"/> </label></div>
+    <div><label> Password: <input type="password" name="password"/> </label></div>
+    <div><label> code: <input type="text" name="captcha"/> </label> <img src="/getCode" id="code" alt="验证码"
+                                                                         onclick="refresh(this)"/></div>
+    <label> <input type="hidden" name="uuid" id="uuid"/> </label>
+    <div><a href="javascript:login();">登录</a></div>
+</body>
+</html>
