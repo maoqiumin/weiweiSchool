@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-web" />
+        <module name="model" />
         <module name="dao" />
         <module name="common" />
         <module name="web" />
         <module name="service" />
-        <module name="model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

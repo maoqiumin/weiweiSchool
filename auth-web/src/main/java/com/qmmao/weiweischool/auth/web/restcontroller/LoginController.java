@@ -21,6 +21,7 @@ import org.springframework.util.Base64Utils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -66,13 +67,13 @@ public class LoginController {
     }
 
     @PostMapping("/login")
-    public BaseApiResponse<String> login(LoginForm loginForm, HttpServletRequest request, HttpServletResponse response) {
+    public BaseApiResponse<String> login(@RequestBody LoginForm loginForm, HttpServletRequest request, HttpServletResponse response) {
         //校验验证码是否正确
         String captcha = loginForm.getCaptcha();
         String code = (String) request.getSession().getAttribute(request.getParameter(loginForm.getUuid()));
         LOGGER.info("获取提交的code:【{}】", captcha);
         LOGGER.info("获取保存的code:【{}】", code);
-        if (!code.equalsIgnoreCase(captcha)) {
+        if (StringUtils.isEmpty(captcha) || !captcha.equalsIgnoreCase(code)) {
             return ApiResponseUtil.getFail(ResponseCodeEnum.CODEFAIL);
         }
         request.getSession().removeAttribute(request.getParameter("uuid"));

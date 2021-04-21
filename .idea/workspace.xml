@@ -28,125 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9bb869-cc46-42a9-a807-d4d3eb8ecca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth-web/auth-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/AuthWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/interceptor/JwtTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/resources/static/js/vue-2.6.12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-web/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/auth/dto/AccountInfoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/auth/form/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/auth/vo/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/constvar/MessageConstVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/enums/AccountStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/enums/ResponseCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/config/JwtTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/controller/MasterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/MasterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/ApiResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/ApiResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/interceptor/JwtTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/interceptor/JwtTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-web/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/UUIDUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/AuthorityGen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/CustomerGen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/RoleGen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/qmmao/weiweischool/dao/teachingdb/entity/UserGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/constvar/ConstVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/constvar/ConstVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/enums/RoleEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/ImgVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/auth/vo/ImgVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/PayLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/RoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/qmmao/weiweischool/model/vo/login/UserInfoDTO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/AuthApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/apicontroller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/code/VerifyCodeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/code/VerifyCodeFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginFailureHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/handle/LoginSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/JwtAuthorizationTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/key/RsaKeyProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/CustomUserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/SecurityUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/web/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/web/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/src/main/resources/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/config/RsaKeyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/config/RsaKeyProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/filter/TokenLoginFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/filter/TokenVerifyFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/java/com/qmmao/weiweischool/security/authserver/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/ImageCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/PayLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/RolePojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/domin/UserPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/ImageCodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/JsonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/main/java/com/qmmao/weiweischool/security/common/util/RsaUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/src/test/java/com/qmmao/weiweischool/security/common/util/RsaUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/WebApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/config/RsaKeyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/config/RsaKeyProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/filter/TokenVerifyFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/java/com/qmmao/weiweischool/security/resources/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-jwt-service-resources/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/qmmao/weiweischool/service/servicemanger/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/qmmao/weiweischool/service/servicemanger/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/apicontroller/LoginApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/qmmao/weiweischool/web/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/image/1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/image/2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/image/3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/js/jquery-3.4.1/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-web/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/login/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,8 +145,22 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\demo\weiweiSchool\common\src" />
+      <recent name="E:\demo\weiweiSchool\common\src\main\test\java" />
+      <recent name="E:\demo\weiweiSchool\web\src\main\resources" />
+      <recent name="E:\demo\weiweiSchool\dao\src\main\resources" />
+      <recent name="F:\JavaProject\test\web\src\main\resources\templates\home\home" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.qmmao.weiweischool.common.util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qmmao.weiweischool.auth.web.restcontroller" />
+      <recent name="com.qmmao.weiweischool.auth.web.interceptor" />
+      <recent name="com.qmmao.weiweischool.auth.web.config" />
+      <recent name="com.qmmao.weiweischool.web.config" />
+      <recent name="com.qmmao.weiweischool.sercurity.auth.config.key" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\demo\weiweiSchool\auth-web\src\main\resources\static\js" />
@@ -255,20 +168,6 @@
       <recent name="E:\demo\weiweiSchool\security-auth\src\main\resources\static\js" />
       <recent name="E:\demo\weiweiSchool\common\src\main\java\com\qmmao\weiweischool\common\util" />
       <recent name="E:\demo\weiweiSchool\security-auth\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qmmao.weiweischool.auth.web.interceptor" />
-      <recent name="com.qmmao.weiweischool.auth.web.config" />
-      <recent name="com.qmmao.weiweischool.web.config" />
-      <recent name="com.qmmao.weiweischool.sercurity.auth.config.key" />
-      <recent name="com.qmmao.weiweischool.model.vo.login" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\demo\weiweiSchool\common\src" />
-      <recent name="E:\demo\weiweiSchool\common\src\main\test\java" />
-      <recent name="E:\demo\weiweiSchool\web\src\main\resources" />
-      <recent name="E:\demo\weiweiSchool\dao\src\main\resources" />
-      <recent name="F:\JavaProject\test\web\src\main\resources\templates\home\home" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -305,13 +204,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -558,6 +459,7 @@
       <workItem from="1618795566249" duration="5371000" />
       <workItem from="1618819449447" duration="5521000" />
       <workItem from="1618881895199" duration="9983000" />
+      <workItem from="1618967380253" duration="2376000" />
     </task>
     <servers />
   </component>
@@ -608,10 +510,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618902282569" />
-    <state x="1045" y="257" key="#xdebugger.evaluate" timestamp="1618630209596">
+    <state x="1045" y="257" key="#xdebugger.evaluate" timestamp="1618969673660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="257" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1618630209596" />
+    <state x="1045" y="257" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1618969673660" />
     <state x="750" y="48" key="#自动导入" timestamp="1618388231376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -624,62 +526,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618386382781" />
-    <state width="1485" height="407" key="GridCell.Tab.0.bottom" timestamp="1618909869645">
+    <state width="1485" height="406" key="GridCell.Tab.0.bottom" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869645" />
-    <state width="1485" height="407" key="GridCell.Tab.0.center" timestamp="1618909869645">
+    <state width="1485" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.0.center" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869645" />
-    <state width="1485" height="407" key="GridCell.Tab.0.left" timestamp="1618909869645">
+    <state width="1485" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.0.left" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869645" />
-    <state width="1485" height="407" key="GridCell.Tab.0.right" timestamp="1618909869645">
+    <state width="1485" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.0.right" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869645" />
-    <state width="1485" height="407" key="GridCell.Tab.1.bottom" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.1.bottom" timestamp="1618969627647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.1.center" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618969627647" />
+    <state width="1485" height="406" key="GridCell.Tab.1.center" timestamp="1618969627647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.1.left" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618969627647" />
+    <state width="1485" height="406" key="GridCell.Tab.1.left" timestamp="1618969627647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.1.right" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618969627647" />
+    <state width="1485" height="406" key="GridCell.Tab.1.right" timestamp="1618969627647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.2.bottom" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618969627647" />
+    <state width="1485" height="406" key="GridCell.Tab.2.bottom" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.2.center" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.2.center" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.2.left" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.2.left" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
-    <state width="1485" height="407" key="GridCell.Tab.2.right" timestamp="1618909869646">
+    <state width="1485" height="406" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
+    <state width="1485" height="406" key="GridCell.Tab.2.right" timestamp="1618969619465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="407" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618909869646" />
+    <state width="1485" height="406" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618969619465" />
     <state x="489" y="174" key="Maven.ArtifactSearchDialog" timestamp="1618387087899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="489" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618387087899" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1618364298032">
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1618969087440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1618364298032" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1618969087440" />
     <state x="758" y="297" key="chooseDestDirectoryDialog" timestamp="1618467963098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -725,6 +627,31 @@
           <url>file://$PROJECT_DIR$/security-auth/src/main/java/com/qmmao/weiweischool/sercurity/auth/config/user/CustomUserDetailsServiceImpl.java</url>
           <line>30</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/LoginController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/restcontroller/LoginController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-web/src/main/java/com/qmmao/weiweischool/auth/web/interceptor/JwtTokenInterceptor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/login/JwtUtil.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/qmmao/weiweischool/common/util/JsonUtil.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />

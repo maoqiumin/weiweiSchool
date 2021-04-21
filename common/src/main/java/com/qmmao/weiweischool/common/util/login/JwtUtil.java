@@ -30,7 +30,7 @@ public class JwtUtil {
      */
     public static <T> String generateTokenExpireInMinutes(T userInfo, PrivateKey privateKey, int expire) {
         return Jwts.builder()
-                .claim(JWT_PAYLOAD_USER_KEY, JsonUtil.toString(userInfo))
+                .claim(JWT_PAYLOAD_USER_KEY, JsonUtil.toJsonString(userInfo))
                 .setId(createJti())
                 .setExpiration(DateTime.now().plusMinutes(expire).toDate())
                 .signWith(SignatureAlgorithm.RS256, privateKey)
