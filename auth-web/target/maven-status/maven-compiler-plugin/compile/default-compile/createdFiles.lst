@@ -1,7 +1,8 @@
 com\qmmao\weiweischool\auth\web\controller\ViewController.class
 com\qmmao\weiweischool\auth\web\restcontroller\LoginController.class
-com\qmmao\weiweischool\auth\web\config\WebConfig.class
-com\qmmao\weiweischool\auth\web\config\RsaKeyProperties.class
+com\qmmao\weiweischool\auth\web\config\SwaggerConfig.class
 com\qmmao\weiweischool\auth\web\interceptor\JwtTokenInterceptor.class
 com\qmmao\weiweischool\auth\web\restcontroller\MasterController.class
+com\qmmao\weiweischool\auth\web\config\WebConfig.class
+com\qmmao\weiweischool\auth\web\config\RsaKeyProperties.class
 com\qmmao\weiweischool\auth\web\AuthWebApplication.class

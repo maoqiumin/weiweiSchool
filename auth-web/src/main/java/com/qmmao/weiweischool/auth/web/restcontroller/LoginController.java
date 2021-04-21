@@ -14,15 +14,13 @@ import com.qmmao.weiweischool.model.constvar.ConstVar;
 import com.qmmao.weiweischool.model.enums.AccountStatusEnum;
 import com.qmmao.weiweischool.model.enums.ResponseCodeEnum;
 import com.qmmao.weiweischool.service.servicemanger.user.UserService;
+import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Base64Utils;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -34,6 +32,7 @@ import java.io.IOException;
  * @author DELL
  */
 @RestController
+@Api(tags = {"登陆接口"})
 public class LoginController {
     private static final Logger LOGGER = LoggerFactory.getLogger(LoginController.class);
 
@@ -67,6 +66,7 @@ public class LoginController {
     }
 
     @PostMapping("/login")
+    @ResponseBody
     public BaseApiResponse<String> login(@RequestBody LoginForm loginForm, HttpServletRequest request, HttpServletResponse response) {
         //校验验证码是否正确
         String captcha = loginForm.getCaptcha();
@@ -84,7 +84,7 @@ public class LoginController {
         }
         if (AccountStatusEnum.CLOSE.getCode().equals(accountInfo.getStatus())) {
             //封号提醒
-            return ApiResponseUtil.getFail("封号中，详情咨询官方客户");
+            return ApiResponseUtil.getFail("封号中，详情咨询官方客服");
         }
         UserVO userVO = new UserVO(accountInfo);
         //生成JWT token返回
